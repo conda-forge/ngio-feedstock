@@ -144,4 +144,6 @@ Feedstock Maintainers
 =====================
 
 * [@tcompa](https://github.com/tcompa/)
+* [@lorenzocerrone](https://github.com/lorenzocerrone/)
+* [@jluethi](https://github.com/jluethi/)
 
