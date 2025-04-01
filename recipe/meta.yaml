@@ -36,6 +36,7 @@ requirements:
     - pooch
     - filelock
     - xarray
+    - ome-zarr-models
 
 test:
   imports:
