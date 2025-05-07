@@ -37,6 +37,8 @@ requirements:
     - filelock
     - xarray
     - ome-zarr-models
+    - polars
+    - pyarrow
 
 test:
   imports:
