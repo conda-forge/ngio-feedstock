@@ -30,7 +30,6 @@ requirements:
     - requests
     - aiohttp
     - zarr <3
-    - dask
     - distributed
     - dask-image
     - pooch
@@ -39,6 +38,7 @@ requirements:
     - ome-zarr-models
     - polars
     - pyarrow
+    - dask <2025.11.0
 
 test:
   imports:
