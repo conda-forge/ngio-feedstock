@@ -1,5 +1,5 @@
 {% set name = "ngio" %}
-{% set version = "0.5.1" %}
+{% set version = "0.5.0" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/ngio-{{ version }}.tar.gz
-  sha256: 880c522002254b7cebcb542ab22e58cf9b32af5a61b6f1f0f641f91cd779d3be
+  sha256: d4294430daa3b20ea0154a29177d57b392f5381cb3a150fefbef278732028c95
 
 build:
   noarch: python
@@ -26,8 +26,6 @@ requirements:
     - numpy
     - filelock
     - zarr >3
-    - scipy
-    - fsspec
     - anndata
     - pydantic
     - pandas >=1.2.0,<3.0.0
