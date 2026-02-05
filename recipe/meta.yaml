@@ -24,21 +24,21 @@ requirements:
   run:
     - python >={{ python_min }}
     - numpy
-    - anndata >=0.8.0,<0.11.4
+    - filelock
+    - zarr >3
+    - anndata
     - pydantic
     - pandas >=1.2.0,<3.0.0
     - requests
     - aiohttp
-    - zarr <3
+    - dask <2025.11.0
     - distributed
-    - dask-image
-    - pooch
-    - filelock
     # - xarray
     - ome-zarr-models
+    - pooch
     - polars
     - pyarrow
-    - dask <2025.11.0
+    - pillow
 
 test:
   imports:
