@@ -1,5 +1,5 @@
 {% set name = "ngio" %}
-{% set version = "0.5.13" %}
+{% set version = "0.5.14" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/ngio-{{ version }}.tar.gz
-  sha256: 8aa7de8083fb672504bcc7ea3b7da6c1ab644470de2d98d41a6148e3223136be
+  sha256: 43ca3d580f0f6ce889c3dde48d1d513a98bf0ff4c5b1a8e0a220577dc2b614f8
 
 build:
   noarch: python
